@@ -1,0 +1,135 @@
+/* ====== Global ====== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #FFF700; /* Yellow lemon background */
+  color: #000;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* ====== Title ====== */
+.title {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+/* ====== Wallet Button ====== */
+.wallet-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.wallet-button button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wallet-button button:hover {
+  background-color: #e68900;
+}
+
+/* ====== Container ====== */
+.container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.container input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.container button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: #ff9800;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container button:hover {
+  background-color: #e68900;
+}
+
+/* ====== NFT Preview ====== */
+.nft-image {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #000;
+}
+
+/* ====== NFT Gallery ====== */
+.nft-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 25px;
+}
+
+.nft-card {
+  background: white;
+  border-radius: 16px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.nft-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.nft-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+.nft-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 3px 0;
+}
+
+.nft-card .owner {
+  font-size: 0.8rem;
+  color: #888;
+  word-break: break-all;
+}
+
+/* ====== Logo ====== */
+.logo-image {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
