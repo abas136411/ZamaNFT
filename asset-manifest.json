@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ZamaNFT/static/css/main.80dc2b6c.css",
-    "main.js": "/ZamaNFT/static/js/main.9d082c2e.js",
+    "main.js": "/ZamaNFT/static/js/main.70f9498b.js",
     "static/js/453.49f6a980.chunk.js": "/ZamaNFT/static/js/453.49f6a980.chunk.js",
     "index.html": "/ZamaNFT/index.html",
     "main.80dc2b6c.css.map": "/ZamaNFT/static/css/main.80dc2b6c.css.map",
-    "main.9d082c2e.js.map": "/ZamaNFT/static/js/main.9d082c2e.js.map",
+    "main.70f9498b.js.map": "/ZamaNFT/static/js/main.70f9498b.js.map",
     "453.49f6a980.chunk.js.map": "/ZamaNFT/static/js/453.49f6a980.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80dc2b6c.css",
-    "static/js/main.9d082c2e.js"
+    "static/js/main.70f9498b.js"
   ]
 }
